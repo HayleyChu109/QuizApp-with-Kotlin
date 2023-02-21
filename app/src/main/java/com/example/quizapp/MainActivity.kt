@@ -22,7 +22,7 @@ class MainActivity : AppCompatActivity() {
                 startActivity(intent)
                 finish()
             } else {
-                Toast.makeText(this, "Please enter your name", Toast.LENGTH_LONG).show()
+                Toast.makeText(this, R.string.enter_name, Toast.LENGTH_LONG).show()
             }
         }
     }
